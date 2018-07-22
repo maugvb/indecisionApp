@@ -1,2 +1,4 @@
 node_modules/
 src/playground/
+public/bundle.js
+public/scripts/
