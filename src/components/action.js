@@ -2,8 +2,7 @@ import React from 'react';
 
 const Action = (props) =>  (
         <div>
-            <p>Test</p>
-            <button onClick={props.select} disabled={!props.hasOptions}>
+            <button onClick={props.select} disabled={!props.hasOptions} className='big-button'>
                 What should i do?
             </button>
         </div>
