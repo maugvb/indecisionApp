@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "live-server public/",
     "build": "webpack",
+    "start": "node server/server.js",
     "dev-server": "webpack-dev-server --mode=development"
   },
   "author": "Mauricio De Armas",
@@ -19,6 +20,7 @@
     "babel-preset-env": "1.5.2",
     "babel-preset-react": "6.24.1",
     "css-loader": "^1.0.0",
+    "express": "^4.16.3",
     "live-server": "^1.2.0",
     "node-sass": "^4.9.2",
     "normalize.css": "^8.0.0",
