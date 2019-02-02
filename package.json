@@ -10,7 +10,7 @@
     "build:prod": "webpack -p --env production",
     "dev-server": "webpack-dev-server",
     "heroku-postbuild": "npm run build:prod",
-    "start": "node server"
+    "start": "node server/server.js"
   },
   "author": "Mauricio De Armas",
   "license": "MIT",
