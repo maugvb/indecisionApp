@@ -8,7 +8,9 @@
     "serve": "live-server public/",
     "build:dev": "webpack",
     "build:prod": "webpack -p --env production",
-    "dev-server": "webpack-dev-server --mode=development"
+    "dev-server": "webpack-dev-server",
+    "heroku-postbuild": "npm run build:prod",
+    "start": "node server"
   },
   "author": "Mauricio De Armas",
   "license": "MIT",
